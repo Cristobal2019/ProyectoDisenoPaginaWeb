@@ -6,6 +6,57 @@ padding: 0;
 box-sizing: border-box;
 }
 
+
+.Acerca-de{
+    padding: 4px 80px;
+}
+
+.contenedor-acerca-de{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.card-acerca{
+    width: 33%;   
+    border-radius: 3px;
+    padding: 20px 10px;
+    margin-top: 40px;
+}
+
+
+.card-acerca i{
+    font-size: 50px;
+    display: block;
+    color: red;
+    margin-bottom: 15px;
+}
+.card-acerca h4{
+margin: 30px 0px;
+color: #00486D;
+}
+.card-acerca p{
+font-weight: 300;
+margin-bottom: 30px;
+color: #00486D;
+}
+
+.img-card-acerca img{
+    width: 20%;
+    vertical-align: top;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .servicio-contenedor{
     background: rgb(248, 219, 219);
 }
