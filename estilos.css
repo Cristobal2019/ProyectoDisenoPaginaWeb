@@ -125,7 +125,25 @@ color: #00486D;
     color: #00486D;
     margin: 20px 0px;
 }
-
+.textos-header a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 5px;
+    border-radius: 5px;
+    font-weight: 700;   
+    width: 200px;
+    text-align: center;
+    background-color: #00486D;
+    margin: 10px 100px;
+   
+    
+   }
+   .textos-header a:hover{   
+    background-color: red;
+    padding: 20px 10px; 
+   }
 
 /*PAQUETES*/
 
@@ -160,7 +178,8 @@ color: #00486D;
 
 .PAQUETES-tex h3{
     color: #00486D;
-    margin: 20px 0px;
+    margin: 0px 0px;
     color: white;
     
 }
+
