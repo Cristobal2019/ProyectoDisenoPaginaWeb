@@ -156,39 +156,38 @@ color: #00486D;
 
 .Presupuesto{
     display: flex;
-    margin-top: 10px;
-    width: 100%;
-    height: auto;
-   flex-wrap: wrap;
-   justify-content: space-around;
+    padding: 10px 0;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+    height: 300px;  
  
 }
 
 
-.Presupuesto-img{
-    overflow: hidden;
-    position: relative;
-    width: 50%;
-    padding: 0px 10px;
-    height: 400px; 
+.Presupuesto-text{
+    width: 40%;  
  
 }
 
-.Presupuesto-img img{
+.Presupuesto-text img{
     object-fit:contain;
     width: 100%;
     height: 100%;   
 }
 
-.Presupuesto-img h1{
+.Presupuesto-text h1{
     color: #00486D;
     margin: 20px 0px;
 }
 
-.Presupuesto-img h3{
+.Presupuesto-text h3{
     color: #00486D;
     margin: 20px 0px;
 }
+
+/*boton presupuesto*/
 .textos-header a{
     display: inline-block;
     color: white;
@@ -205,7 +204,8 @@ color: #00486D;
     
    }
    .textos-header a:hover{   
-    background-color: red;
+    background-color: f56f3a;
+    color: white;
     padding: 20px 10px; 
    }
 
