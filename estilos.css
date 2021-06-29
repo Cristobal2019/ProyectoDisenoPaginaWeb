@@ -6,7 +6,7 @@ padding: 0;
 box-sizing: border-box;
 }
 
-
+/* acerca */
 .Acerca-de{
     padding: 4px 80px;
 }
@@ -23,8 +23,6 @@ box-sizing: border-box;
     padding: 20px 10px;
     margin-top: 40px;
 }
-
-
 .card-acerca i{
     font-size: 50px;
     display: block;
@@ -40,7 +38,6 @@ font-weight: 300;
 margin-bottom: 30px;
 color: #00486D;
 }
-
 .img-card-acerca img{
     width: 20%;
     vertical-align: top;
@@ -49,52 +46,48 @@ color: #00486D;
 
 
 
-
-
-
-
-
-
-
+/*servicios*/
 
 .servicio-contenedor{
-    background: rgb(248, 219, 219);
+    background: rgb(248, 236, 236);
 }
 
 .servicio{
     display: flex;
-    padding: 80px 0;
+    padding: 10px 0;
     justify-content: space-around;
     width: 90%;
     margin: auto;
     flex-wrap: wrap;
+    height: 300px;   
     
 }
 .servicio .img-servicio{
-    width: 50%;
+    width: 40%;   
 }
 .servicio .img-servicio img{
     width: 100%;
     vertical-align: top;
+    height: 250px; 
 }
 .servicio .contenido-servicio{
     width: 50%;
     padding-left: 60px;
 }
 
+.contenido-servicio h1{
+    text-align: center;
+    color: #00486D;
+    margin-bottom: 10px;
+}
 .contenido-servicio h3{
-    text-align: left;
-}
-.contenido-servicio p{
     text-align: justify;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     width: 90%;
+    color: #00486D;
 }
-.contenido-servicio ul{
-  padding-left: 10px;
-}
-.contenido-servicio ul li{
-    list-style: none;
-    padding-bottom: 10px;
- 
-  }
+
+
+
+
+
