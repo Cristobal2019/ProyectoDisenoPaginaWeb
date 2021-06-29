@@ -286,3 +286,28 @@ color: #00486D;
     padding: 20px 10px; 
     
    }
+
+   /* footer */
+
+/*head*/
+footer {
+	width:100%;	
+    background:#252932; 
+    display: flex;  
+
+}
+.footer-text {
+    width: 50%;   
+    display: flex;  
+}
+.footer-text h3{
+    color:white;
+    padding: 20px;
+}
+
+.footer-text img{ 
+    padding: 10px 5px;
+    align-content: center;
+    width: 40px;
+  }
+
