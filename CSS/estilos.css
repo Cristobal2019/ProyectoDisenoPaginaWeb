@@ -11,13 +11,15 @@ header {
 	width:100%; 
 	overflow:hidden;
 	background:#015073;
-	margin-bottom:5px;
+    margin-bottom:5px;
+    z-index:5;
+  
 }
 
 .wrapper {
 	width:90%; 	
 	margin:auto;
-	overflow:hidden;
+    overflow:hidden;    
 }
 
 header .logo {
@@ -235,6 +237,7 @@ text-align: center;
     height: auto;
    flex-wrap: wrap;
    justify-content: space-around;
+  
 }
 
 .galeria-img{
