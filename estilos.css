@@ -8,17 +8,17 @@ box-sizing: border-box;
 
 /*head*/
 header {
-	width:100%; /* Establecemos que el header abarque el 100% del documento */
-	overflow:hidden; /* Eliminamos errores de float */
-	background:#252932;
+	width:100%; 
+	overflow:hidden;
+	background:#015073;
 	margin-bottom:5px;
 }
 
 .wrapper {
-	width:90%; /* Establecemos que el ancho sera del 90% */
-	max-width:100%; /* Aqui le decimos que el ancho máximo sera de 100% */
-	margin:auto; /* Centramos los elementos */
-	overflow:hidden; /* Eliminamos errores de float */
+	width:90%; 
+	max-width:100%; 
+	margin:auto;
+	overflow:hidden;
 }
 
 header .logo {
@@ -83,72 +83,25 @@ header nav a:hover {
     width: 33%;   
     border-radius: 3px;
     padding: 20px 10px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
-.card-acerca i{
-    font-size: 50px;
-    display: block;
-    color: red;
-    margin-bottom: 15px;
-}
+
 .card-acerca h4{
-margin: 30px 0px;
+margin: 2px 0px;
 color: #00486D;
 font-size: 30px;
 }
 .card-acerca p{
 font-weight: 300;
-margin-bottom: 30px;
+padding: 0px 40px;
 color: #00486D;
+text-align: justify;
 }
 .img-card-acerca img{
     width: 30%;
     vertical-align: top;
 }
 
-
-
-
-/*servicios*/
-
-.servicio-contenedor{
-    background: rgb(248, 236, 236);
-}
-
-.servicio{
-    display: flex;
-    padding: 10px 0;
-    justify-content: space-around;
-    width: 90%;
-    margin: auto;
-    flex-wrap: wrap;
-    height: 300px;   
-    
-}
-.servicio .img-servicio{
-    width: 40%;   
-}
-.servicio .img-servicio img{
-    width: 100%;
-    vertical-align: top;
-    height: 250px; 
-}
-.servicio .contenido-servicio{
-    width: 50%;
-    padding-left: 60px;
-}
-
-.contenido-servicio h1{
-    text-align: center;
-    color: #00486D;
-    margin-bottom: 10px;
-}
-.contenido-servicio h3{
-    text-align: justify;
-    margin-bottom: 10px;
-    width: 90%;
-    color: #00486D;
-}
 
 /*clientes*/
 
@@ -161,17 +114,16 @@ color: #00486D;
    justify-content: space-around; 
 }
 .clientes-tex{
-    overflow: hidden;
-    position: relative;
+    overflow: hidden; 
     width: 50%;
     padding: 10px 10px;
     height: 200px;  
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 
 .clientes-tex h1{  
     margin: 20px 0px;
-    color: white;
+    color: #00486D;
     text-align: center;
     font-size: 25px;
     font-weight: bold;
@@ -179,32 +131,15 @@ color: #00486D;
 }
 
 .clientes-tex h3{
-    color: #00486D;
+   
     margin: 0px 20px;
-    color: white;
+   color: #00486D;;
     text-align: justify;
     
 }
 
 /*slider*/
-.contenedor-slider{
-    display: flex;
-    margin-top: 10px;
-    width: 100%;
-    height: auto;
-   flex-wrap: wrap;
-   justify-content: space-around;
-}
-.slider-contenedorImage{
-    width: 20%;
-    height: 400px;
-    background-color: blanchedalmond;
-    display: flex;  
-    align-items: center;
-    flex-direction: column;
-  
-  
-}
+
 .slider-contenedor{
     display: flex;
     width: 100%;
@@ -225,58 +160,47 @@ color: #00486D;
 .slider_test img{
     width: 80%;
     height: 50%;
-    object-fit:unset ;
+    object-fit:unset;
 }
 
-/*presupuesto*/
 
-.Presupuesto{
+/*publicidad*/
+.Publicidad{
     display: flex;  
-    justify-content: space-around;
-    width: 100%; 
-    height: 200px;  
- 
-}
-.Presupuesto-text{
-    width: 50%; 
-    padding: 0px 20px; 
-}
-
-.Presupuesto-text img{
-    object-fit:contain;
     width: 100%;
-    height: 100%; 
-
-  
+    height: 150px; 
+    margin: 20px 0px; 
+}
+.Publicidad-tex{   
+    width: 50%; 
+    padding: 20px;
 }
 
-.Presupuesto-text-presupuesto h1{
+.Publicidad-tex h1{
+color: white;
+font-size: 20px;
+text-align: center;
+}
+.Publicidad-tex h3{
     color: #00486D;
-   padding-left: 40px;  
-    
+    font-size: 18px;
+    text-align: justify;
 }
-
-.Presupuesto-text-presupuesto h3{
-    color: #00486D;
-    padding-left: 40px;    
-   
-}
-.textos-header
-{
-    margin: 50px 0px;
-    text-align: center;
+.textos-header{
+  padding-left: 40%;
+  margin-top: 5px;
 }
 /*boton presupuesto*/
 .textos-header a{
     display: inline-block;
-    color: white;
+    color:#00486D;
     text-decoration: none;
     border: 1px solid white;
     padding: 20px 5px;
     border-radius: 5px;
     font-weight: 700; 
     text-align: center;
-    background-color: #00486D;     
+    background-color: rgb(228, 221, 247);     
   
    }
    .textos-header a:hover{   
@@ -292,7 +216,7 @@ color: #00486D;
 /*head*/
 footer {
 	width:100%;	
-    background:#252932; 
+    background:#00486D; 
     display: flex;  
 
 }
