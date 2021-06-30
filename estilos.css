@@ -15,8 +15,7 @@ header {
 }
 
 .wrapper {
-	width:90%; 
-	max-width:100%; 
+	width:90%; 	
 	margin:auto;
 	overflow:hidden;
 }
@@ -102,7 +101,17 @@ text-align: justify;
     vertical-align: top;
 }
 
-
+/*asesoria*/
+.Asesoria{
+    background-color: #00486D;
+    margin: 20px 0px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight:bold;
+    border-radius: 20px;
+}
 /*clientes*/
 
 .clientes{
@@ -169,11 +178,14 @@ text-align: justify;
     display: flex;  
     width: 100%;
     height: 150px; 
-    margin: 20px 0px; 
+    margin: 5px 0px;
+    
 }
 .Publicidad-tex{   
     width: 50%; 
     padding: 20px;
+    border-radius: 20px;  
+    margin: 5px;
 }
 
 .Publicidad-tex h1{
@@ -218,7 +230,6 @@ footer {
 	width:100%;	
     background:#00486D; 
     display: flex;  
-
 }
 .footer-text {
     width: 50%;   
