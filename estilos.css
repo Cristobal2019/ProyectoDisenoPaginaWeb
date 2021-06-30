@@ -27,6 +27,9 @@ header .logo {
 	float:left;
 }
 
+.logo   img{
+    width: 50px;
+}
 header nav {
 	float:right;
 	line-height:100px;
